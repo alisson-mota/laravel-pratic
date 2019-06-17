@@ -8,15 +8,17 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FeedPageModule } from './feed/feed.module';
+import { LoginPage } from './login/login.page';
+import { LoginPageModule } from './login/login.module';
+
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule,
-     IonicModule.forRoot(),
-      AppRoutingModule,
-      FeedPageModule ],
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    LoginPageModule],
   providers: [
     StatusBar,
     SplashScreen,
@@ -24,4 +26,4 @@ import { FeedPageModule } from './feed/feed.module';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

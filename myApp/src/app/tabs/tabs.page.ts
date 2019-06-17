@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { FeedPage } from '../feed/feed.page';
+import { LoginPage } from '../login/login.page';
+
 
 @Component({
   selector: 'app-tabs',
@@ -7,8 +8,7 @@ import { FeedPage } from '../feed/feed.page';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-
-  tabs4 = FeedPage
+  tab4 = LoginPage
 
   constructor() {}
 

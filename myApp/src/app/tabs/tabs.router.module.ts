@@ -37,23 +37,14 @@ const routes: Routes = [
 
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/login',
         pathMatch: 'full'
       }
     ]
   },
   {
-    path: 'feed',
-    children: [
-      {
-        path: '',
-        loadChildren: '../feed/feed.page.html'
-      }
-    ]
-  },
-  {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/login',
     pathMatch: 'full'
   }
 ];

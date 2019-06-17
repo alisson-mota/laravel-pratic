@@ -7,6 +7,19 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  public nome_usu:string = "Nome usuario";
+
+    constructor() {}
+
+
+  public somaDoisNumeros(): void{
+    alert("passou");
+  }
+
+  ionViewDidLoad(){
+    alert("passou");
+    this.somaDoisNumeros();
+  }
+
 
 }
