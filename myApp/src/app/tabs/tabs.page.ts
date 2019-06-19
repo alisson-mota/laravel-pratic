@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { LoginPage } from '../login/login.page';
-
 
 @Component({
   selector: 'app-tabs',
@@ -8,7 +6,6 @@ import { LoginPage } from '../login/login.page';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-  tab4 = LoginPage
 
   constructor() {}
 
